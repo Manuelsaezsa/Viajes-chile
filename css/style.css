@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: "Nunito", sans-serif;
 }
 
 .nav-link {
@@ -118,4 +119,4 @@ footer {
 .footer-icons i {
   font-size: 24px;
   margin-right: 10px;
-}
+} 
