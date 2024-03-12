@@ -7,45 +7,115 @@
 .nav-link {
   color: rgba(167, 204, 209, 0.8);
 }
+
 .navbar-brand {
   margin-left: 150px;
   font-size: 18px;
 }
+
 .navbar-nav {
   margin-right: 150px;
 }
+
 main {
   background-color: black;
 }
-.note{
-    font-size: 20px;
+
+.note {
+  font-size: 20px;
+
 }
+
 .line {
-  height: 2px; /* Altura del HR */
-  background-color: white; /* Color del HR */
-  border: none; /* Quita el borde del HR */
+  height: 2px;
+  background-color: white;
+  border: none;
   width: 70%;
   margin: 2px auto;
   margin-bottom: 30px;
 }
-.items{
-    margin: 0 150px 0 150px;
-    padding-bottom: 30px;
-    height: 300px;
+
+.items {
+  margin: 0 150px 0 150px;
+  padding-bottom: 30px;
+  height: 300px;
 }
-.col{
-    width: 33%;
+
+.col {
+  width: 33%;
 }
-.card{
-    height: 200px;
-    padding: 0;
-    margin: 0;
-    border: 0;
-    background-color: black;
+
+.card {
+  height: 200px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: black;
 }
-.imagen{
-  background-color:lightseagreen;
+
+.imagen {
+  background-color: lightseagreen;
 }
-.card-text{
+
+.card-text {
   font-size: 12px;
+}
+
+.col1 {
+  width: 25%;
+  background-color: aqua;
+}
+
+.line2 {
+  height: 2px;
+  background-color: white;
+  border: none;
+  width: 93%;
+  margin: 2px auto;
+  margin-bottom: 30px;
+}
+
+.items2 {
+  height: 500px;
+  margin-left: 150px;
+  padding: 0;
+  width: 1050px;
+}
+
+.card-outstanding {
+  border: 1px solid #ccc;
+  background-color: rgb(52, 179, 217);
+  border-radius: 5px;
+}
+
+.card-outstanding>img {
+  border-radius: 5px 5px 0 0;
+  height: 150px;
+}
+
+.card-outstanding>.body-card-outstanding {
+  padding: 5px 10px 5px 10px;
+  color: white;
+}
+
+label {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+button[type="submit"] {
+  background-color: rgb(52, 179, 217);
+}
+
+footer {
+  background-color: rgb(52, 179, 217);
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-icons i {
+  font-size: 24px;
+  margin-right: 10px;
 }
