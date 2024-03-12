@@ -30,4 +30,11 @@ main {
 }
 .items{
     margin: 0 150px 0 150px;
+    padding-bottom: 30px;
+}
+.col{
+    width: 33%;
+}
+.card{
+    height: 200px;
 }
