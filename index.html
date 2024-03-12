@@ -6,114 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viajes Chile</title>
     <link rel="icon" type="image/png" href="./img/Chile-flag-icon-in-modern-neomorphism-Graphics-15653707-1.jpg">
+    <!-- Favicon -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/2d35188f5a.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <!--Bootstrap CSS -->
+    <script src="https://kit.fontawesome.com/2d35188f5a.js" crossorigin="anonymous"></script> <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/style.css"> <!--CSS -->
 </head>
 
 <body>
     <header>
-        <div id="inicio">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
-                    <div class="container-fluid justify-content-center">
-                        <a class="navbar-brand" href="#"> <!-- Se agrega imagen y texto navbar -->
-                            <img src="./img/viajes.svg" alt="logo" width="30" height="30"
-                                class="d-inline-block align-top">
-                            <span class="ms-2 text-white">Viajes Chile</span>
-                        </a>
+        <section>
+            <div id="inicio"> <!-- Navbar -->
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+                        <div class="container-fluid justify-content-center">
+                            <a class="navbar-brand" href="#"> <!-- Se agrega imagen y texto navbar -->
+                                <img src="./img/viajes.svg" alt="logo" width="30" height="30"
+                                    class="d-inline-block align-top">
+                                <span class="ms-2 text-white">Viajes Chile</span>
+                            </a>
 
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button> <!-- Botón de hamburguesa para dispositivos pequeños -->
 
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!-- Se agregan los items -->
-                            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#inicio">Inicio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#quienes_somos">Quienes somos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#destacados">Destacados</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#contacto">Contacto</a>
-                                </li>
-                            </ul>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <!-- Se agregan los items -->
+                                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#inicio">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#quienes_somos">Quienes somos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#destacados">Destacados</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#contacto">Contacto</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <!-- Se agrega carrusel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/carousel1.jpg" class="d-block w-100" alt="...">
                     </div>
-                </nav>
+                    <div class="carousel-item">
+                        <img src="./img/carousel2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/carousel3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-        </div>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"> <!-- Se agrega carrusel -->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./img/carousel1.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./img/carousel2.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./img/carousel3.jpg" class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+        </section>
     </header>
 
     <main>
-        <div>
-            <div class="note bg-black d-flex justify-content-center align-items-center text-white pt-4 pb-1">
-                <div id="quienes_somos">
-                    <p>¿QUIÉNES SOMOS?
-                    </p>
+        <section>
+            <div class="d-none d-sm-block"> <!-- Sección de "Quiénes Somos" -->
+                <div class="note bg-black d-flex justify-content-center align-items-center text-white pt-4 pb-1">
+                    <div id="quienes_somos">
+                        <p>¿QUIÉNES SOMOS?
+                        </p>
+                    </div>
                 </div>
+                <hr class="line"> <!-- Línea separadora -->
             </div>
-            <hr class="line"> <!-- Se agrega la linea para separar el quienes somos -->
-        </div>
-        <div class="items bg-black">
-            <div class="row row-cols-1 row-cols-md-3 g-3"><!-- Se divide en 3 columnas -->
-                <div class="col"> <!-- columnas 1-->
-                    <div class="card">
+            <div class="items bg-black d-none d-sm-block">
+                <div class="row"> <!-- Primer bloque de contenido -->
+                    <div class="col-12 col-md-4 mb-3 mx-md-0">
                         <div class="imagen">
                             <i
                                 class="fa-brands fa-avianex d-flex justify-content-center align-items-center fa-2x text-white"></i>
+                            <!-- Icono Font Awesome -->
                         </div>
-                        <div class="card-body">
-                            <p class="card-text text-white bg-black pl-0">Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Sed faucibus ipsum sit amet semper laoreet. Integer vitae magna nec
-                                urna gravida facilisis. Maecenas nec nisi sed nisi accumsan pharetra vel ut lorem.
-                                Quisque at condimentum mauris. Mauris id lacinia velit. Donec tincidunt ex eget lectus
-                                euismod feugiat. Nullam ultricies felis eget velit finibus, a bibendum mauris
-                                condimentum. Curabitur consectetur vehicula lorem, nec fringilla risus viverra vel. Sed
-                                ultrices, lectus nec eleifend sodales, urna mauris ullamcorper nisl, id finibus sapien
-                                orci eu arcu. Integer consectetur nulla at elit laoreet vestibulum. Nulla ut libero ac
-                                tortor consequat iaculis.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col"> <!-- columnas 2 -->
-                    <div class="card">
-                        <div class="card-text text-white bg-black">
+                        <div class="text-about-us text-white pl-0">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus ipsum sit amet
                                 semper laoreet. Integer vitae magna nec urna gravida facilisis. Maecenas nec nisi sed
                                 nisi accumsan pharetra vel ut lorem. Quisque at condimentum mauris. Mauris id lacinia
@@ -121,22 +110,35 @@
                                 finibus, a bibendum mauris condimentum. Curabitur consectetur vehicula lorem, nec
                                 fringilla risus viverra vel. Sed ultrices, lectus nec eleifend sodales, urna mauris
                                 ullamcorper nisl, id finibus sapien orci eu arcu. Integer consectetur nulla at elit
-                                laoreet vestibulum. Nulla ut libero ac tortor consequat iaculis.
-                            </p>
+                                laoreet vestibulum. Nulla ut libero ac tortor consequat iaculis.</p>
                         </div>
-                        <div class="imagen">
+                    </div>
+                    <div class="col-12 col-md-4 mb-3 mx-md-0">
+                        <div class="imagen d-md-none">
+                            <i
+                                class="fa-solid fa-mountain d-flex justify-content-center align-items-center fa-2x text-white"></i>
+                        </div>
+                        <div class="text-about-us text-white pl-0">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus ipsum sit amet
+                                semper laoreet. Integer vitae magna nec urna gravida facilisis. Maecenas nec nisi sed
+                                nisi accumsan pharetra vel ut lorem. Quisque at condimentum mauris. Mauris id lacinia
+                                velit. Donec tincidunt ex eget lectus euismod feugiat. Nullam ultricies felis eget velit
+                                finibus, a bibendum mauris condimentum. Curabitur consectetur vehicula lorem, nec
+                                fringilla risus viverra vel. Sed ultrices, lectus nec eleifend sodales, urna mauris
+                                ullamcorper nisl, id finibus sapien orci eu arcu. Integer consectetur nulla at elit
+                                laoreet vestibulum. Nulla ut libero ac tortor consequat iaculis.</p>
+                        </div>
+                        <div class="imagen d-none d-md-block">
                             <i
                                 class="fa-solid fa-mountain d-flex justify-content-center align-items-center fa-2x text-white"></i>
                         </div>
                     </div>
-                </div>
-                <div class="col"> <!-- columnas 3 -->
-                    <div class="card">
+                    <div class="col-12 col-md-4 mb-3 mx-md-0">
                         <div class="imagen">
                             <i
                                 class="fa-solid fa-map-location-dot d-flex justify-content-center align-items-center fa-2x text-white"></i>
                         </div>
-                        <div class="card-text text-white bg-black">
+                        <div class="text-about-us text-white pl-0">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus ipsum sit amet
                                 semper laoreet. Integer vitae magna nec urna gravida facilisis. Maecenas nec nisi sed
                                 nisi accumsan pharetra vel ut lorem. Quisque at condimentum mauris. Mauris id lacinia
@@ -144,116 +146,120 @@
                                 finibus, a bibendum mauris condimentum. Curabitur consectetur vehicula lorem, nec
                                 fringilla risus viverra vel. Sed ultrices, lectus nec eleifend sodales, urna mauris
                                 ullamcorper nisl, id finibus sapien orci eu arcu. Integer consectetur nulla at elit
-                                laoreet vestibulum. Nulla ut libero ac tortor consequat iaculis.
-                            </p>
+                                laoreet vestibulum. Nulla ut libero ac tortor consequat iaculis.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div>
+        </section>
+        <section> <!-- Sección de "Destacados" -->
+            <div>
+                <div class="note bg-black d-flex justify-content-center align-items-center text-white pt-4 pb-1">
+                    <div id="destacados">
+                        <p>DESTACADOS
+                        </p>
+                    </div>
+                </div>
+                <hr class="line2"> <!-- Línea separadora -->
+            </div>
+
+            <section class="container">
+                <div class="row"> <!-- Tarjetas de destaque -->
+                    <div class="col-12 col-sm-6 col-md-3 mb-3 mx-sm-2 mx-md-0">
+                        <div class="card">
+                            <img src="./img/card1.jpg" class="card-img-top ml-0" alt="...">
+                            <div class="body-card">
+                                <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                                <p class="card-text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    euismod
+                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 mb-3 mx-sm-2 mx-md-0">
+                        <div class="card">
+                            <img src="./img/card2.jpg" class="card-img-top ml-0" alt="...">
+                            <div class="body-card">
+                                <h5 class="card-title">Consectetur adipiscing elit</h5>
+                                <p class="card-text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    euismod
+                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 mb-3 mx-sm-2 mx-md-0">
+                        <div class="card">
+                            <img src="./img/card3.jpg" class="card-img-top ml-0" alt="...">
+                            <div class="body-card">
+                                <h5 class="card-title">Sed do euismod tempor incididunt ut labore</h5>
+                                <p class="card-text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    euismod
+                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 mb-3 mx-sm-2 mx-md-0">
+                        <div class="card">
+                            <img src="./img/card4.jpg" class="card-img-top ml-0" alt="...">
+                            <div class="body-card">
+                                <h5 class="card-title">Ut enim ad minim veniam</h5><br>
+                                <p class="card-text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    euismod
+                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <br>
+        <section> <!-- Sección de "Contacto" -->
             <div class="note bg-black d-flex justify-content-center align-items-center text-white pt-4 pb-1">
-                <div id="destacados">
-                    <p>DESTACADOS
+                <div id="contacto">
+                    <p>CONTACTO
                     </p>
                 </div>
             </div>
-            <hr class="line2"> <!-- Se agrega la linea para separar el quienes somos -->
-        </div>
+            <hr class="line2">
+            <div class="container">
+                <form action=""> <!-- Formulario de contacto -->
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" class="form-control" required>
+                        </div>
+                    </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <div class="card-outstanding">
-                        <img src="./img/card1.jpg" class="card-img-top ml-0" alt="...">
-                        <div class="body-card-outstanding">
-                            <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-                            <p class="card-text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                euismod
-                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="asunto">Asunto</label>
+                            <input type="text" id="asunto" name="asunto" class="form-control" required>
                         </div>
                     </div>
-                </div>
-                <div class="col-3">
-                    <div class="card-outstanding">
-                        <img src="./img/card2.jpg" class="card-img-top ml-0" alt="...">
-                        <div class="body-card-outstanding">
-                            <h5 class="card-title">Consectetur adipiscing elit</h5><br>
-                            <p class="card-text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                euismod
-                                tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" class="form-control" rows="4" required></textarea>
                         </div>
                     </div>
-                </div>
-                <div class="col-3">
-                    <div class="card-outstanding">
-                        <img src="./img/card3.jpg" class="card-img-top ml-0" alt="...">
-                        <div class="body-card-outstanding">
-                            <h5 class="card-title">Sed do euismod tempor incididunt ut labore</h5>
-                            <p class="card-text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                euismod
-                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <br>
+                    <div class="row">
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary btn-block" data-bs-toggle="tooltip"
+                                data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                                data-bs-title="Enviar formulario de contacto">
+                                Enviar
+                            </button>
                         </div>
                     </div>
-                </div>
-                <div class="col-3">
-                    <div class="card-outstanding">
-                        <img src="./img/card4.jpg" class="card-img-top ml-0" alt="...">
-                        <div class="body-card-outstanding">
-                            <h5 class="card-title">Ut enim ad minim veniam</h5><br>
-                            <p class="card-text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                euismod
-                                tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </div>
-                </div>
+                </form>
             </div>
-        </div>
-
-        <br>
-
-        <div class="note bg-black d-flex justify-content-center align-items-center text-white pt-4 pb-1">
-            <div id="contacto">
-                <p>CONTACTO
-                </p>
-            </div>
-        </div>
-        <hr class="line2">
-        <div class="container">
-            <form action="">
-                <div class="row">
-                    <div class="col-12">
-                        <label for="nombre">Nombre</label>
-                        <input type="text" id="nombre" name="nombre" class="form-control" required>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-12">
-                        <label for="asunto">Asunto</label>
-                        <input type="text" id="asunto" name="asunto" class="form-control" required>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-12">
-                        <label for="mensaje">Mensaje</label>
-                        <textarea id="mensaje" name="mensaje" class="form-control" rows="4" required></textarea>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-12">
-                        <button type="submit" class="btn btn-primary btn-block">Enviar</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-
+        </section>
         <br>
 
     </main>
-    <footer>
+    <footer> <!-- Pie de página -->
         <div class="container">
             <div class="row">
                 <div class="col-md-2"></div>
@@ -261,7 +267,7 @@
                     <h4>VIAJES CHILE</h4>
                 </div>
                 <div class="col-md-4"></div>
-                <div class="col-md-2 footer-icons">
+                <div class="col-md-2 footer-icons"> <!-- Íconos de redes sociales -->
                     <i class="fa-brands fa-square-twitter"></i>
                     <i class="fa-brands fa-linkedin"></i>
                     <i class="fa-brands fa-github"></i>
@@ -270,6 +276,7 @@
             </div>
         </div>
     </footer>
+    <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
@@ -279,6 +286,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
         crossorigin="anonymous"></script>
+    <!-- Script para inicializar tooltips de Bootstrap -->
+    <script>
+        $(document).ready(function () {
+            const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+            tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+                new bootstrap.Tooltip(tooltipTriggerEl);
+            });
+        });
+    </script>
 </body>
 
 </html>

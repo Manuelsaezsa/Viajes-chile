@@ -1,33 +1,32 @@
-* {
+* {                                       /* Estilos generales para resetear márgenes, padding y bordes */
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: "Nunito", sans-serif;
 }
 
-.nav-link {
+.nav-link {                                /* Estilos para los enlaces del navbar */
   color: rgba(167, 204, 209, 0.8);
 }
 
-.navbar-brand {
+.navbar-brand {                            /* Estilos para el logo del navbar */
   margin-left: 150px;
   font-size: 18px;
 }
 
-.navbar-nav {
+.navbar-nav {                              /* Estilos para el menú de navegación del navbar */
   margin-right: 150px;
 }
 
-main {
+main {                                        /* Estilos generales para el contenido principal */
   background-color: black;
 }
 
-.note {
+.note {                                        /* Estilos para el título de las notas */
   font-size: 20px;
 
 }
 
-.line {
+.line {                                        /* Estilos para la línea divisoria */
   height: 2px;
   background-color: white;
   border: none;
@@ -36,38 +35,20 @@ main {
   margin-bottom: 30px;
 }
 
-.items {
+.items {                                       /* Estilos para los elementos dentro de la sección "Quiénes Somos" */
   margin: 0 150px 0 150px;
   padding-bottom: 30px;
-  height: 300px;
-}
+ }
 
-.col {
-  width: 33%;
-}
-
-.card {
-  height: 200px;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  background-color: black;
-}
-
-.imagen {
+.imagen {                                        /* Estilos para el contenedor de la imagen */
   background-color: lightseagreen;
 }
 
-.card-text {
+.text-about-us {                                  /* Estilos para el texto de descripción */
   font-size: 12px;
 }
 
-.col1 {
-  width: 25%;
-  background-color: aqua;
-}
-
-.line2 {
+.line2 {                                           /* Estilos para la línea divisoria 2 */
   height: 2px;
   background-color: white;
   border: none;
@@ -76,47 +57,44 @@ main {
   margin-bottom: 30px;
 }
 
-.items2 {
-  height: 500px;
-  margin-left: 150px;
-  padding: 0;
-  width: 1050px;
-}
-
-.card-outstanding {
+.card {                                          /* Estilos para las tarjetas */
   border: 1px solid #ccc;
   background-color: rgb(52, 179, 217);
   border-radius: 5px;
 }
 
-.card-outstanding>img {
+.card>img {                                     /* Estilos para las imágenes dentro de las tarjetas */
   border-radius: 5px 5px 0 0;
   height: 150px;
 }
 
-.card-outstanding>.body-card-outstanding {
+.card>.body-card {                               /* Estilos para el cuerpo de la tarjeta */
   padding: 5px 10px 5px 10px;
   color: white;
 }
 
-label {
+label {                                            /* Estilos para las etiquetas */
   color: white;
   font-size: 16px;
   margin-bottom: 5px;
   display: block;
 }
 
-button[type="submit"] {
+button[type="submit"] {                             /* Estilos para el botón de envío */
   background-color: rgb(52, 179, 217);
 }
 
-footer {
+footer {                                             /* Estilos para el pie de página */
   background-color: rgb(52, 179, 217);
   color: #fff;
   padding: 20px 0;
 }
 
-.footer-icons i {
+.footer-icons i {                                      /* Estilos para los iconos del pie de página */
   font-size: 24px;
   margin-right: 10px;
-} 
+}
+
+.custom-tooltip {                                  /* Estilos personalizados para el tooltip */
+  --bs-tooltip-bg: rgb(52, 179, 217);
+}
