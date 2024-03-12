@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.nav-link {
+  color: rgba(167, 204, 209, 0.8);
+}
+.navbar-brand {
+  margin-left: 150px;
+  font-size: 18px;
+}
+.navbar-nav {
+  margin-right: 150px;
+}
+main {
+  background-color: black;
+}
+.note{
+    font-size: 20px;
+}
+.line {
+  height: 2px; /* Altura del HR */
+  background-color: white; /* Color del HR */
+  border: none; /* Quita el borde del HR */
+  width: 70%;
+  margin: 2px auto;
+  margin-bottom: 30px;
+}
+.items{
+    margin: 0 150px 0 150px;
+}
