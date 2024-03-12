@@ -31,10 +31,21 @@ main {
 .items{
     margin: 0 150px 0 150px;
     padding-bottom: 30px;
+    height: 300px;
 }
 .col{
     width: 33%;
 }
 .card{
     height: 200px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: black;
+}
+.imagen{
+  background-color:lightseagreen;
+}
+.card-text{
+  font-size: 12px;
 }
